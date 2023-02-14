@@ -14,7 +14,7 @@ class Musteri: #VERİTABANIMIZ GİBİ MUSTERI SINIFI OLUSTURDUK
         self.sonodemetarihi=sonodemetarihi
 XHesap=Musteri("ahmet","can",123,5000,2000,"19/11*2023")
 YHesap=Musteri("mehmet","cakır",123456,6000,2500,"01/08/2023")
-TakılanKart=EnesHesap #TAKILAN KART MUSTERI SINIFINDAN BILGILERI CEKIYOR NORMALDE DB'den ALMASI GEREK
+TakılanKart=XHesap #TAKILAN KART MUSTERI SINIFINDAN BILGILERI CEKIYOR NORMALDE DB'den ALMASI GEREK
 
 class ATM:
     def __init__(self,atmad):
